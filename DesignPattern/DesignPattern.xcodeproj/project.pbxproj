@@ -16,6 +16,8 @@
 		44D6D58B2697425400E28EC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D6D58A2697425400E28EC3 /* main.m */; };
 		44D6D5952697425400E28EC3 /* DesignPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D6D5942697425400E28EC3 /* DesignPatternTests.m */; };
 		44D6D5A02697425400E28EC3 /* DesignPatternUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D6D59F2697425400E28EC3 /* DesignPatternUITests.m */; };
+		44DA85AF26A3045400BC2F6F /* WJPersonal.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DA85AE26A3045400BC2F6F /* WJPersonal.m */; };
+		44DA85B226A30D0A00BC2F6F /* NSObject+WJDeepCopyExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DA85B126A30D0A00BC2F6F /* NSObject+WJDeepCopyExtend.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		44D6D59B2697425400E28EC3 /* DesignPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D6D59F2697425400E28EC3 /* DesignPatternUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignPatternUITests.m; sourceTree = "<group>"; };
 		44D6D5A12697425400E28EC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44DA85AD26A3045400BC2F6F /* WJPersonal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJPersonal.h; sourceTree = "<group>"; };
+		44DA85AE26A3045400BC2F6F /* WJPersonal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJPersonal.m; sourceTree = "<group>"; };
+		44DA85B026A30D0A00BC2F6F /* NSObject+WJDeepCopyExtend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+WJDeepCopyExtend.h"; sourceTree = "<group>"; };
+		44DA85B126A30D0A00BC2F6F /* NSObject+WJDeepCopyExtend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WJDeepCopyExtend.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,17 +110,21 @@
 		44D6D5772697425200E28EC3 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				44DA85AD26A3045400BC2F6F /* WJPersonal.h */,
+				44DA85AE26A3045400BC2F6F /* WJPersonal.m */,
+				44DA85B026A30D0A00BC2F6F /* NSObject+WJDeepCopyExtend.h */,
+				44DA85B126A30D0A00BC2F6F /* NSObject+WJDeepCopyExtend.m */,
 				44D6D5782697425200E28EC3 /* AppDelegate.h */,
 				44D6D5792697425200E28EC3 /* AppDelegate.m */,
+				44D6D5842697425400E28EC3 /* Assets.xcassets */,
+				44D6D5892697425400E28EC3 /* Info.plist */,
+				44D6D5862697425400E28EC3 /* LaunchScreen.storyboard */,
+				44D6D58A2697425400E28EC3 /* main.m */,
+				44D6D5812697425200E28EC3 /* Main.storyboard */,
 				44D6D57B2697425200E28EC3 /* SceneDelegate.h */,
 				44D6D57C2697425200E28EC3 /* SceneDelegate.m */,
 				44D6D57E2697425200E28EC3 /* ViewController.h */,
 				44D6D57F2697425200E28EC3 /* ViewController.m */,
-				44D6D5812697425200E28EC3 /* Main.storyboard */,
-				44D6D5842697425400E28EC3 /* Assets.xcassets */,
-				44D6D5862697425400E28EC3 /* LaunchScreen.storyboard */,
-				44D6D5892697425400E28EC3 /* Info.plist */,
-				44D6D58A2697425400E28EC3 /* main.m */,
 			);
 			path = DesignPattern;
 			sourceTree = "<group>";
@@ -270,6 +280,8 @@
 				44D6D57A2697425200E28EC3 /* AppDelegate.m in Sources */,
 				44D6D58B2697425400E28EC3 /* main.m in Sources */,
 				44D6D57D2697425200E28EC3 /* SceneDelegate.m in Sources */,
+				44DA85AF26A3045400BC2F6F /* WJPersonal.m in Sources */,
+				44DA85B226A30D0A00BC2F6F /* NSObject+WJDeepCopyExtend.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
