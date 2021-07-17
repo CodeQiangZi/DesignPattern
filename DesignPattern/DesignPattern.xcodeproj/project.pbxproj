@@ -16,6 +16,7 @@
 		44D6D58B2697425400E28EC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D6D58A2697425400E28EC3 /* main.m */; };
 		44D6D5952697425400E28EC3 /* DesignPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D6D5942697425400E28EC3 /* DesignPatternTests.m */; };
 		44D6D5A02697425400E28EC3 /* DesignPatternUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D6D59F2697425400E28EC3 /* DesignPatternUITests.m */; };
+		44DA85B526A33C5E00BC2F6F /* WJLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DA85B426A33C5E00BC2F6F /* WJLocationManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		44D6D59B2697425400E28EC3 /* DesignPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D6D59F2697425400E28EC3 /* DesignPatternUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignPatternUITests.m; sourceTree = "<group>"; };
 		44D6D5A12697425400E28EC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44DA85B326A33C5E00BC2F6F /* WJLocationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJLocationManager.h; sourceTree = "<group>"; };
+		44DA85B426A33C5E00BC2F6F /* WJLocationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJLocationManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 		44D6D5772697425200E28EC3 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				44DA85B326A33C5E00BC2F6F /* WJLocationManager.h */,
+				44DA85B426A33C5E00BC2F6F /* WJLocationManager.m */,
 				44D6D5782697425200E28EC3 /* AppDelegate.h */,
 				44D6D5792697425200E28EC3 /* AppDelegate.m */,
 				44D6D57B2697425200E28EC3 /* SceneDelegate.h */,
@@ -270,6 +275,7 @@
 				44D6D57A2697425200E28EC3 /* AppDelegate.m in Sources */,
 				44D6D58B2697425400E28EC3 /* main.m in Sources */,
 				44D6D57D2697425200E28EC3 /* SceneDelegate.m in Sources */,
+				44DA85B526A33C5E00BC2F6F /* WJLocationManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
