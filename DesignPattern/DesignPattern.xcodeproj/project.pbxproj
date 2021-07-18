@@ -16,6 +16,10 @@
 		44D6D58B2697425400E28EC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D6D58A2697425400E28EC3 /* main.m */; };
 		44D6D5952697425400E28EC3 /* DesignPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D6D5942697425400E28EC3 /* DesignPatternTests.m */; };
 		44D6D5A02697425400E28EC3 /* DesignPatternUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D6D59F2697425400E28EC3 /* DesignPatternUITests.m */; };
+		44DA85B826A46CDC00BC2F6F /* WJInputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DA85B726A46CDC00BC2F6F /* WJInputValidator.m */; };
+		44DA85BB26A46CFD00BC2F6F /* WJNumberInputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DA85BA26A46CFD00BC2F6F /* WJNumberInputValidator.m */; };
+		44DA85BE26A46D3800BC2F6F /* WJAlphaInputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DA85BD26A46D3800BC2F6F /* WJAlphaInputValidator.m */; };
+		44DA85C226A46DA400BC2F6F /* WJCustomerTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DA85C126A46DA400BC2F6F /* WJCustomerTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,14 @@
 		44D6D59B2697425400E28EC3 /* DesignPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D6D59F2697425400E28EC3 /* DesignPatternUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignPatternUITests.m; sourceTree = "<group>"; };
 		44D6D5A12697425400E28EC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44DA85B626A46CDC00BC2F6F /* WJInputValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJInputValidator.h; sourceTree = "<group>"; };
+		44DA85B726A46CDC00BC2F6F /* WJInputValidator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJInputValidator.m; sourceTree = "<group>"; };
+		44DA85B926A46CFD00BC2F6F /* WJNumberInputValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJNumberInputValidator.h; sourceTree = "<group>"; };
+		44DA85BA26A46CFD00BC2F6F /* WJNumberInputValidator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJNumberInputValidator.m; sourceTree = "<group>"; };
+		44DA85BC26A46D3800BC2F6F /* WJAlphaInputValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJAlphaInputValidator.h; sourceTree = "<group>"; };
+		44DA85BD26A46D3800BC2F6F /* WJAlphaInputValidator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJAlphaInputValidator.m; sourceTree = "<group>"; };
+		44DA85C026A46DA400BC2F6F /* WJCustomerTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCustomerTextField.h; sourceTree = "<group>"; };
+		44DA85C126A46DA400BC2F6F /* WJCustomerTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCustomerTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +116,14 @@
 		44D6D5772697425200E28EC3 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				44DA85B626A46CDC00BC2F6F /* WJInputValidator.h */,
+				44DA85B726A46CDC00BC2F6F /* WJInputValidator.m */,
+				44DA85BC26A46D3800BC2F6F /* WJAlphaInputValidator.h */,
+				44DA85BD26A46D3800BC2F6F /* WJAlphaInputValidator.m */,
+				44DA85B926A46CFD00BC2F6F /* WJNumberInputValidator.h */,
+				44DA85BA26A46CFD00BC2F6F /* WJNumberInputValidator.m */,
+				44DA85C026A46DA400BC2F6F /* WJCustomerTextField.h */,
+				44DA85C126A46DA400BC2F6F /* WJCustomerTextField.m */,
 				44D6D5782697425200E28EC3 /* AppDelegate.h */,
 				44D6D5792697425200E28EC3 /* AppDelegate.m */,
 				44D6D57B2697425200E28EC3 /* SceneDelegate.h */,
@@ -267,7 +287,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				44D6D5802697425200E28EC3 /* ViewController.m in Sources */,
+				44DA85BE26A46D3800BC2F6F /* WJAlphaInputValidator.m in Sources */,
+				44DA85BB26A46CFD00BC2F6F /* WJNumberInputValidator.m in Sources */,
 				44D6D57A2697425200E28EC3 /* AppDelegate.m in Sources */,
+				44DA85C226A46DA400BC2F6F /* WJCustomerTextField.m in Sources */,
+				44DA85B826A46CDC00BC2F6F /* WJInputValidator.m in Sources */,
 				44D6D58B2697425400E28EC3 /* main.m in Sources */,
 				44D6D57D2697425200E28EC3 /* SceneDelegate.m in Sources */,
 			);
